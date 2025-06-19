@@ -105,3 +105,12 @@ print("radio = ", radius)
 print("area = ", area)
 print(f"El area de un circulo con un radio de {radius}, es {int(area)} metros cuadrados")
 #Ejercicio 36
+num1 = 8
+num2 = 6
+print(f"{num1} + {num2} = {num1 + num2}")
+print(f"{num1} - {num2} = {num1 - num2}")
+print(f"{num1} * {num2} = {num1 * num2}")
+print(f"{num1} / {num2} = {num1 / num2:.2f}")
+print(f"{num1} % {num2} = {num1 % num2}")
+print(f"{num1} // {num2} = {num1 // num2}")
+print(f"{num1} ** {num2} = {num1 ** num2}")
