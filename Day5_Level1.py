@@ -27,3 +27,37 @@ print(it_companies)
 it_companies.insert(len(it_companies)//2, "Samsung")
 print(it_companies)
 #Ejercicio 13
+g=it_companies[1].upper()
+it_companies[1]=g
+print(it_companies)
+#Ejercicio 14
+separador = " #; "
+companies = separador.join(it_companies)
+print(companies)
+#Ejercicio 15
+print("Oracle" in it_companies)
+#Ejercicio 16
+it_companies.sort()
+print(it_companies)
+#Ejercicio 17
+it_companies.reverse()
+print(it_companies)
+#Ejercicio 18
+print(it_companies[0:3])
+#Ejercicio 19
+print(it_companies[6:])
+#Ejercicio 20
+print(it_companies[len(it_companies) // 2])
+#Ejercicio 21
+it_companies.remove(it_companies[0])
+print(it_companies)
+#Ejercicio 22
+list_start= len(it_companies) // 2
+list_end= len(it_companies) // 2 + 1
+new_list= it_companies[ : list_start]+ it_companies[ list_end : ]
+print(f"{new_list}")
+it_companies.remove(it_companies[list_start])
+print(it_companies)
+#ejercicio 23
+print(it_companies.remove(it_companies[]))
+
