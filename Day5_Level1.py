@@ -59,5 +59,6 @@ print(f"{new_list}")
 it_companies.remove(it_companies[list_start])
 print(it_companies)
 #ejercicio 23
-print(it_companies.remove(it_companies[]))
-
+it_companies.remove(it_companies[-1])
+print(it_companies)
+#Ejercicio 24
