@@ -62,3 +62,19 @@ print(it_companies)
 it_companies.remove(it_companies[-1])
 print(it_companies)
 #Ejercicio 24
+it_companies.clear()
+print(it_companies)
+#Ejercicio 25
+del it_companies
+#Ejercicio 26
+front_end = ["HTML" , "CSS" , "JS" , "React" , "Redux"]
+back_end = ["Node" , "Express" , "MongoDB"]
+print(front_end)
+print(back_end)
+join_list = front_end + back_end
+print(join_list)
+#Ejercicio 27
+full_stack = list(join_list)
+redux = full_stack.index("Redux")
+full_stack = full_stack[ : redux + 1] + ["Python" , "SQL"] + full_stack[redux + 1 : ]
+print(full_stack)
