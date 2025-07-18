@@ -1,8 +1,7 @@
 # sets
-it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
 A = {19, 22, 24, 20, 25, 26}
 B = {19, 22, 20, 25, 26, 24, 28, 27}
-age = [22, 19, 24, 25, 26, 24, 25, 24]
+
 #Ejercicio 1
 AB = A.union(B)
 print(AB)
@@ -13,3 +12,16 @@ print(interseccion)
 subset = A.issubset(B)
 print(subset)
 #Ejercicio 4
+disjoin = A.isdisjoint(B)
+print(disjoin)
+#Ejercicio 5
+A.union(B)
+B.union(A)
+print(A)
+print(B)
+#Ejercicio 6
+simetrico = A.symmetric_difference(B)
+print(simetrico)
+#Ejercicio 7
+del A
+del B
